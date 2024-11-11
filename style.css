@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    background-color: #fab570d0;
+    justify-content: center;
+}
+
+
+.background{
+    outline: 7px solid #ef7d36b9;
+    background-color: #FFF4DB;
+    width: 75vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.imagem-home{
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 85vh;
+}
+
+.imagem-home img{
+    position: absolute;
+    transform: scaleX(-1);
+    width: 100%;
+    height: 100%;
+    filter: brightness(90%);
+}
+
+.textos{
+    margin-left: 8%;
+    color: white;
+    text-align: center;
+    width: 35%;
+    z-index: 1;
+}
+
+.textos button{
+    font-family: 'Haneman';
+    margin-top: 40px;
+    font-size: 169%;
+    border-radius: 15px;
+    height: 7.5vh;
+    width: 55%;
+    background-color: #F89B23;
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+
+.textos button:hover{
+    transform: scale(1.07);
+}
+
+.textos h1{
+    margin-bottom: 15px;
+    font-size: 85px;
+    font-family: 'Kameron';
+}
+
+.textos h2{
+    font-size: 42px;
+    font-family: 'Judson';
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 80%;
+    align-items: center;
+}
+
+.informacoes p{
+    text-indent: 25px;
+    text-align: justify;
+    font-size: 1.7vw;
+    font-family: 'Judson';
+}
+
+.informacoes img{
+    padding-bottom: 30px;
+    height: 100%;
+    width: 70%;
+}
+
+.sobreocaju{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 60px;
+    background-color: #EF7D36;
+    width: 100%;
+    height: 20vh;
+    border-bottom: 6px solid #fe904b;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreocaju h1{
+    display: flex;
+    font-size: 3.5vw;
+    font-family: 'Franklin Gothic Medium';
+}
+
+
+.sobreaturma{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 60px;
+    background-color: #EF7D36;
+    width: 100%;
+    height: 20vh;
+    border-bottom: 6px solid #fe904b;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreaturma h1{
+    display: flex;
+    font-size: 3.5vw;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.sobreaturma h2{
+    text-align: left;
+    display: flex;
+    font-size: 1.8vw;
+    font-family: 'Julius Sans One';
+}
+
+.sobre-caju{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.sobre-caju img{
+    width: 34%;
+    height: 60vh;
+    padding-bottom: 30px;
+}
+
+.sobre-caju p{
+    font-family: 'Judson';
+    width: 100%;
+    display: flex;
+    text-indent: 25px;
+    text-align: justify;
+    font-size: 1.7vw;
+}
+
+@media (max-width: 1024px){
+
+
+    .sobre-caju{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        padding-top: 70px;
+        
+    }
+    .sobre-caju img{
+        width: 40%;
+        height: 40vh;
+        padding-bottom: 30px;
+    }
+
+    .sobre-caju p{
+        width: 90vw;
+        display: flex;
+        text-indent: 25px;
+        text-align: justify;
+        font-size: 3.5;
+    }
+
+    .imagem-home{
+        height: 37vh;
+    }
+
+    .background{
+        margin-left: 0;
+    }
+
+    .textos{
+        width: 40%;
+    }
+
+    .textos h1{
+        font-size: 10vw;
+    }
+    .textos h2{
+        font-size: 3.8vw;
+    }
+    .textos button{
+        font-size: 3.9vw;
+        height: 5.5vh;
+        width: 88%;
+    }
+    .informacoes{
+        width: 90%;
+        align-items: center;
+    }
+    .informacoes p{
+        font-size: 3.5;
+    }
+
+    .informacoes img{
+        height: 31vh;
+        width: 95%;
+    }
+}
