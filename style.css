@@ -172,7 +172,7 @@ body{
         position: relative;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         align-items: center;
         margin-top: 4vh;
         
@@ -184,7 +184,6 @@ body{
     }
 
     .sobre-caju p{
-        width: 90%;
         display: flex;
         text-indent: 25px;
         text-align: justify;
