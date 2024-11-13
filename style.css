@@ -103,7 +103,7 @@ body{
     background-color: #EF7D36;
     width: 100%;
     height: auto;
-    border-bottom: 6px solid #fe904b;
+    border-bottom: 3px solid #fe904b;
     justify-content: center;
     align-items: center;
 }
@@ -112,6 +112,7 @@ body{
     display: flex;
     font-size: 2.5vw;
     font-family: 'Franklin Gothic Medium';
+    margin: 0.7vh;
 }
 
 
@@ -123,7 +124,7 @@ body{
     background-color: #EF7D36;
     width: 100%;
     height: auto;
-    border-bottom: 6px solid #fe904b;
+    border-bottom: 3px solid #fe904b;
     justify-content: center;
     align-items: center;
 }
@@ -131,10 +132,12 @@ body{
 .sobreaturma h1{
     display: flex;
     font-size: 2.5vw;
+    margin-top: 0.5vh;
     font-family: 'Franklin Gothic Medium';
 }
 
 .sobreaturma h2{
+    margin-bottom: 0.5vh;
     text-align: left;
     display: flex;
     font-size: 1.4vw;
@@ -151,7 +154,7 @@ body{
 }
 
 .sobre-caju img{
-    width: 28%;
+    width: 38%;
     height: 40vh;
     padding-bottom: 30px;
 }
@@ -178,16 +181,17 @@ body{
         
     }
     .sobre-caju img{
-        width: 35%;
+        width: 40%;
         height: 28vh;
         padding-bottom: 3vh;
+        filter: brightness(0.79);
     }
 
     .sobre-caju p{
         display: flex;
         text-indent: 25px;
         text-align: justify;
-        font-size: 3.5vw;
+        font-size: 3.8vw;
     }
 
     .imagem-home{
@@ -219,7 +223,7 @@ body{
         align-items: center;
     }
     .informacoes p{
-        font-size: 3.5vw;
+        font-size: 3.8vw;
     }
 
     .informacoes img{
