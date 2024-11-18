@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.botao{
+    cursor: pointer;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #272727; /*Cor de todos os textos, exceto dos titulos da caixa de receita*/
+    overflow-x: hidden;
+    background-color: #fff4db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 65vw;
+    position: relative;
+}
+header{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    margin-top: -2vh;
+
+}
+
+header .image-caju{
+    position: absolute;
+    transform: rotate(-1.171deg);
+    height: 13vw; /*ajusta tamanho da img*/
+    margin-top: 95px;
+    left: 0;
+    margin-left: 20%;
+}
+
+header button{
+    position: absolute;
+    background: none;
+    border: none;
+    right: 0;
+    margin-right: 115%;
+    margin-bottom: 3%;
+
+}
+header .textos-header h1{/*Receita*/
+    font-size: 61px;
+    font-family: "Inknut Antiqua";
+    color: rgba(34, 29, 24, 0.82);
+}
+
+header .textos-header h2{/*Coxinha de Caju*/
+    position: absolute;
+    font-size: 35px;
+    font-family:  'Whisper';
+    color: rgba(34, 29, 24, 0.82);
+    font-style: normal;
+    top: 0;
+    margin-top: 9%;
+    right: 0;
+    margin-right: 43%;
+}
+
+.caixa-receita {
+    display: flex;
+    gap: 10px; /* Espaço entre as receitas */
+    justify-content: center; /* Centraliza as receitas horizontalmente */
+    align-items: flex-start; /* Alinha as receitas ao topo */
+    flex-wrap: wrap;
+}
+
+.receita { /*caixa branca da receita*/
+    margin-top: 0.5vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
+    max-width: 450px;
+    flex: 1 1 calc(45% - 10px); /* Flex-grow, flex-shrink e largura calculada para alinhamento */
+    transition: box-shadow 0.3s ease, border 0.3s ease; /* Transição suave para sombra e borda */
+}
+
+.receita img { /*Foto da comida*/
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+.receita h1 strong { /*Titulos INGREDIENTES E MODO DE PREPARO*/
+    color: #BF4D00;
+    font-weight: bold;
+}
+
+.receita ul { /*Textos de ingredientes*/
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.receita ol { /*Texto Modo de preparo*/
+    margin: 0;
+    padding: 1vh;
+    padding-left: 20px;
+    list-style-type: decimal;
+}
+
+.image-cacto{
+    position: relative;
+    height: 10vw; /*ajusta tamanho da img*/
+    right: -50vw;
+    bottom: 0;
+    margin-right: 12%;
+    width: 20vh;
+}
+
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 60vw;
+        position: relative;
+    }
+    header{
+        position: relative;
+        width: 100%;
+        height: 20vh;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+    }
+    
+    header button{
+        position: absolute;
+        background: none;
+        border: none;
+        right: 0;
+        margin-right: 120%;
+        margin-bottom: 3%;
+    
+    }
+
+    .image-cacto{
+        position: absolute;
+        height: 15vw; /*ajusta tamanho da img*/
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin-left: 93%;
+        top: 0;
+        margin-top: 156vh;
+        width: 15vh;
+    }
+    
+    header .textos-header h1{
+        font-size: 40px;
+        font-family: "Inknut Antiqua";
+        color: rgba(34, 29, 24, 0.82);
+    }
+    
+    header .textos-header h2{
+        position: absolute;
+        font-size: 25px;
+        font-family:  'Whisper';
+        color: rgba(34, 29, 24, 0.82);
+        font-style: normal;
+        top: 0;
+        margin-top: 27%;
+        right: 0;
+        margin-right: 22%;
+    }
+
+    header .image-caju{
+        position: absolute;
+        transform: rotate(-1.171deg);
+        height: 21vw; /*ajusta tamanho da img*/
+        top: 0;
+        margin-top: 7%;
+        left: 0;
+        margin-left: -10%;
+    }
+
+    
+    .caixa-receita {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center; /* Centraliza as receitas no modo coluna */
+    }
+
+    .receita h1 strong { /*Titulos INGREDIENTES E MODO DE PREPARO*/
+        color: #BF4D00;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+
+}
