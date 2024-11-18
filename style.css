@@ -57,6 +57,7 @@ body{
     background-color: #F89B23;
     cursor: pointer;
     transition: transform 0.15s;
+    border: none;
 }
 
 .textos button:hover{
