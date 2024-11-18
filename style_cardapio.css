@@ -110,14 +110,19 @@ header .textos-header h2{/*Coxinha de Caju*/
     align-items: center;  /* Alinha as imagens com o texto */
     padding: 8px 0;
     border-bottom: 1px solid #ddd;
+    height: 17vh;
+    position: relative;
+    justify-content: center;
 }
 
 .menu-section ul li img {
+    position: absolute;
+    left: 0;
     width: 100px;  /* Ajuste o tamanho da imagem */
     height: 100px;  /* Ajuste o tamanho da imagem */
-    margin-right: 325px;  /* Espaço entre a imagem e o texto */
     border-radius: 50px;  /* Arredondando a imagem (opcional) */
 }
+
 .image-cacto{
     position: relative;
     height: 10vw; /*ajusta tamanho da img*/
