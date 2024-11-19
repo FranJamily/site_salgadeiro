@@ -157,15 +157,13 @@ header .textos-header h2{/*Coxinha de Caju*/
     }
 
     .image-cacto{
-        position: absolute;
-        height: 15vw; /*ajusta tamanho da img*/
+        height: 20vh;
         right: 0;
         bottom: 0;
         left: 0;
-        margin-left: 93%;
+        margin-left: 95%;
         top: 0;
-        margin-top: 156vh;
-        width: 15vh;
+        width: 20vw;
     }
     
     header .textos-header h1{
