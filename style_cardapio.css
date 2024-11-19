@@ -90,6 +90,7 @@ header .textos-header h2{/*Coxinha de Caju*/
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-family: Judson;
 }
 
 .menu-section h2 {
@@ -130,6 +131,7 @@ header .textos-header h2{/*Coxinha de Caju*/
     bottom: 0;
     margin-right: 12%;
     width: 20vh;
+    background-color: none;
 }
 
 @media (max-width: 768px) {

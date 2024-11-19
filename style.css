@@ -86,7 +86,7 @@ body{
     width: 85%;
     text-indent: 25px;
     text-align: justify;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     font-family: 'Judson';
 }
 
@@ -166,10 +166,48 @@ body{
     display: flex;
     text-indent: 25px;
     text-align: justify;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
 }
 
-@media (max-width: 1000px){
+.titulo{
+    text-indent: initial;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-size: 1.2vw;
+}
+
+ul li{
+    margin-left: 7%;
+    width: 100%;
+}
+
+ul li strong{
+    margin-left: 4%;
+}
+
+h3{
+    font-size: 1.3vw;
+    width: 85%;
+}
+
+
+@media (max-width: 1024px){
+    h3{
+        width: 85%;
+        font-size: 4.55vw;
+    }
+    .informacoes h2{
+        font-size: 5vw;
+    }
+
+    ul{
+        width: 80%;
+        font-size: 4vw;
+    }
 
 
     .sobre-caju{

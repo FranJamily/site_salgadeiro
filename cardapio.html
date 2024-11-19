@@ -9,11 +9,22 @@
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inknut Antiqua:wght@400&display=swap" />
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Judson:wght@400&display=swap" />
 </head>
 
 
 <body>
-    
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
     <div class="container">
 
         <header>        
@@ -22,7 +33,7 @@
                 <h1>Cardápio</h1>
                 <h2>Cultura do Caju</h2>
             </div>
-            <a href="index.html"><button class="botao"><img src="./img/Vector.png" ></button></a>
+            <button class="botao"><img src="./img/Vector.png" ></button>
         </header>
      
 <!-- Seções do Cardápio -->
@@ -30,13 +41,13 @@
     <h2>Entrada</h2>
     <ul>
         <li>
-            <img src="./img/trouxinha de caju.jpg" alt="Trouxinha de Caju"> 
-            <a href="./trouxinhadecaju.html">trouxinha de caju</a>
+            <img src="./img/trouxinhadegeleia.jpeg" alt="trouxinha de geleia de caju"> 
+            <a href="./trouxinha de geleia de caju.html">Trouxinha de geleia de caju</a>
             
         </li>
         <li>
             <img src="./img/biscoitodecaju.PNG" alt="Biscoitinho de Caju"> 
-            <a href="./index_biscoito.html">biscoito de caju</a>
+            <a href="./index_biscoito.html">Biscoito de caju</a>
         </li>
     </ul>
 </div>
@@ -46,7 +57,7 @@
     <ul>
         <li>
             <img src="./img/pizzadecaju.PNG" alt="Pizza de Caju"> 
-            <a href="./index_pizza.html">pizza de caju</a>
+            <a href="./index_pizza.html">Pizza de caju</a>
         </li>
     </ul>
 </div>
@@ -55,9 +66,14 @@
     <h2>Sobremesa</h2>
     <ul>
         <li>
-            <img src="./img/sorvetedecaju.PNG" alt="Sorvete de Caju"> 
-            <a href="index_sorvete.html">Sorvete de Caju</a>
+            <img src="./img/moussecaju.jpg" alt="Mousse de Caju"> 
+            <a href="">Mousse de Caju</a>
         </li>
+        <li>
+            <img src="./img/docedecaju.jpeg" alt="Doce de Caju"> 
+            <a href="">Doce de Caju</a>
+        </li>
+
     </ul>
 </div>
 
@@ -66,31 +82,21 @@
     <ul>
         <li>
             <img src="./img/SUCO.jpeg" alt="Suco de Caju"> 
-            <a href="index_suco.html">Suco de Caju</a>
+            <a href="">Suco de Caju</a>
         </li>
         <li>
             <img src="./img/cajuína.PNG" alt="Cajuína"> 
-            <a href="index_cajuina.html">Cajuína</a>
+            <a href="">Cajuína</a>
         </li>
         <li>
             <img src="./img/refrigerante.PNG" alt="Refrigerante de Caju"> 
-            <a href="index_refrigerante.html">Refrigerante de Caju</a>
+            <a href="">Refrigerante de Caju</a>
         </li>
     </ul>
 </div>
 <footer>
-<img class='image-cacto' src= "./img/cactohd (1).png" >
+<img class='image-cacto' src= "./img/cacto.png" >
 </footer>
-<div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
-    </div>
-</div>
-<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-<script>
-    new window.VLibras.Widget('https://vlibras.gov.br/app');
-</script>
 
 </body>
 </html>
