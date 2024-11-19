@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a button:hover{
+    cursor: pointer;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     color: #272727; /*Cor de todos os textos, exceto dos titulos da caixa de receita*/
@@ -24,7 +28,7 @@ header{
     display: flex;
     position: relative;
     width: 100%;
-    height: 20vh;
+    height: auto;
     justify-content: center;
     align-items: center;
     top: 0;
@@ -36,8 +40,9 @@ header .image-caju{
     position: absolute;
     transform: rotate(-1.171deg);
     height: 13vw; /*ajusta tamanho da img*/
-    margin-top: 130px;
+    top: 0;
     left: 0;
+    margin-top: 1.4%;
     margin-left: 20%;
 }
 
@@ -50,22 +55,26 @@ header button{
     margin-bottom: 3%;
 
 }
+.textos-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 header .textos-header h1{/*Receita*/
     font-size: 61px;
+    height: auto;
     font-family: "Inknut Antiqua";
     color: rgba(34, 29, 24, 0.82);
 }
 
 header .textos-header h2{/*Coxinha de Caju*/
-    position: absolute;
     font-size: 35px;
     font-family:  'Whisper';
     color: rgba(34, 29, 24, 0.82);
     font-style: normal;
-    top: 0;
-    margin-top: 9%;
-    right: 0;
-    margin-right: 44%;
+    margin-top: -5.5vh;
 }
 
 .caixa-receita {
@@ -107,7 +116,6 @@ header .textos-header h2{/*Coxinha de Caju*/
 
 .receita ol { /*Texto Modo de preparo*/
     margin: 0;
-    padding: 1vh;
     padding-left: 20px;
     list-style-type: decimal;
 }
@@ -149,15 +157,13 @@ header .textos-header h2{/*Coxinha de Caju*/
     }
 
     .image-cacto{
-        position: absolute;
-        height: 15vw; /*ajusta tamanho da img*/
+        height: 20vh;
         right: 0;
         bottom: 0;
         left: 0;
-        margin-left: 85%;
+        margin-left: 95%;
         top: 0;
-        margin-top: 163vh;
-        width: 12vh;
+        width: 20vw;
     }
     
     header .textos-header h1{
@@ -167,15 +173,8 @@ header .textos-header h2{/*Coxinha de Caju*/
     }
     
     header .textos-header h2{
-        position: absolute;
         font-size: 25px;
-        font-family:  'Whisper';
-        color: rgba(34, 29, 24, 0.82);
-        font-style: normal;
-        top: 0;
-        margin-top: 27%;
-        right: 0;
-        margin-right: 22%;
+        margin-top: -4vh;
     }
 
     header .image-caju{
