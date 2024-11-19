@@ -173,15 +173,8 @@ header .textos-header h2{/*Coxinha de Caju*/
     }
     
     header .textos-header h2{
-        position: absolute;
         font-size: 25px;
-        font-family:  'Whisper';
-        color: rgba(34, 29, 24, 0.82);
-        font-style: normal;
-        top: 0;
-        margin-top: 27%;
-        right: 0;
-        margin-right: 22%;
+        margin-top: -4vh;
     }
 
     header .image-caju{
