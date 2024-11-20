@@ -137,17 +137,20 @@ header .textos-header h2{/*Coxinha de Caju*/
 
 @media (min-width: 601px) and (max-height: 415px) {
     header{
-        margin-bottom: 10vh;
+        margin-bottom: 20vh;
     }
     header .textos-header h1{
         height: 30vh;
         margin-top: 15vh;
     }
     header .textos-header h2{
-        margin-top: 5vh;
+        margin-top: 3.9vh;
     }
     header .image-caju{
         margin-left: 2%;
+    }
+    .menu-section{
+        box-shadow: 0 4px 6px rgba(2, 5, 2, 0.24);
     }
     .menu-section ul li{
         height: 27vh;
@@ -183,6 +186,9 @@ header .textos-header h2{/*Coxinha de Caju*/
     header button{
         display: none;
     
+    }
+    .menu-section{
+        box-shadow: 0 4px 6px rgba(2, 5, 2, 0.25);
     }
 
     .image-cacto{
