@@ -135,7 +135,20 @@ header .textos-header h2{/*Coxinha de Caju*/
     background-color: none;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 601px) and (max-height: 415px) {
+    header .image-caju{
+        margin-left: 10%;
+    }
+    .menu-section ul li{
+        height: 27vh;
+
+    }
+    .menu-section ul li img{
+        height: 11vw;
+    }
+}
+
+@media (max-width: 600px) and (min-height: 416px) {
 
     .container{
         display: flex;
@@ -197,4 +210,5 @@ header .textos-header h2{/*Coxinha de Caju*/
     .menu-section ul li a{
         margin-right: -100px;
     }
+
 }

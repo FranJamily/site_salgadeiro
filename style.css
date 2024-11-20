@@ -195,7 +195,8 @@ h3{
 }
 
 
-@media (max-width: 1024px){
+
+@media (max-width: 600px) and (min-height: 416px){
     h3{
         width: 85%;
         font-size: 4.55vw;
