@@ -136,6 +136,9 @@ header .textos-header h2{/*Coxinha de Caju*/
 }
 
 @media (min-width: 601px) and (max-height: 415px) {
+    header .textos-header h2{
+        margin-top: -10.5vh;
+    }
     header .image-caju{
         margin-left: 10%;
     }
