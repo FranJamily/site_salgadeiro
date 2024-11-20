@@ -143,6 +143,9 @@ header .textos-header h2{/*Coxinha de Caju*/
     .menu-section ul li img{
         height: 11vw;
     }
+    .botao{
+        display: none;
+    }
 }
 
 @media (max-width: 600px) and (min-height: 416px)  {
@@ -214,6 +217,9 @@ header .textos-header h2{/*Coxinha de Caju*/
         color: #BF4D00;
         font-weight: bold;
         font-size: 22px;
+    }
+    .botao{
+        display: none;
     }
 
 
