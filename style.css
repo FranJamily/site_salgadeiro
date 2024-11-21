@@ -194,7 +194,7 @@ h3{
     width: 85%;
 }
 
-@media (min-width: 601px) and (max-height: 415px){
+@media (min-width: 601px) and (max-height: 431px){
     
     .background{
         width: 78vw;
