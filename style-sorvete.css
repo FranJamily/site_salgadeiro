@@ -128,11 +128,23 @@ header .textos-header h2{/*Coxinha de Caju*/
     width: 20vh;
 }
 @media (min-width: 601px) and (max-height: 415px) {
-    header .textos-header h2{
-        margin-top: -10.5vh;
-    }
     header .image-caju{
-        margin-left: 10%;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 15vw;
+        height: 50vh;
+    }
+
+    header{ 
+        width: 100%;
+        height: auto;
+        margin-top: initial;
+        top: 0;
+        justify-content: center;
+        align-items: initial;
+        margin-top: initial;
+        line-height: 1.5;
     }
     .menu-section ul li{
         height: 27vh;
