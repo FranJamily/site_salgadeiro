@@ -147,34 +147,18 @@ header .textos-header h2{/*Coxinha de Caju*/
     }
 }
 
-@media (max-width: 600px) and (min-height: 416px) {
+@media (max-width: 600px) and (min-height: 416px)  {
     .container{
         display: flex;
         flex-direction: column;
         height: 100vh;
-        width: 60vw;
+        width: 90vw;
         position: relative;
-    }
-    .botao{
-        display: none;
-    }
-    header{
-        position: relative;
-        width: 100%;
-        height: 20vh;
-        justify-content: center;
         align-items: center;
-        top: 0;
     }
-    
+
     header button{
-        position: absolute;
-        background: none;
-        border: none;
-        right: 0;
-        margin-right: 120%;
-        margin-bottom: 3%;
-    
+        display: none;  
     }
 
     .image-cacto{
@@ -195,22 +179,31 @@ header .textos-header h2{/*Coxinha de Caju*/
     
     header .textos-header h2{
         font-size: 25px;
-        margin-top: -4vh;
+        margin-top: -2.9vh;
     }
 
     header .image-caju{
-        position: absolute;
-        transform: rotate(-1.171deg);
-        height: 21vw; /*ajusta tamanho da img*/
         top: 0;
-        margin-top: 7%;
         left: 0;
-        margin-left: -10%;
+        margin: 0;
+        width: 22vw;
+        height: 13vh;
+    }
+
+    header{ 
+        width: 100%;
+        height: 20vh;
+        margin-top: initial;
+        top: 0;
+        justify-content: center;
+        align-items: initial;
+        margin-top: initial;
     }
 
     
     .caixa-receita {
         flex-direction: column;
+        width: 95%;
         gap: 15px;
         align-items: center; /* Centraliza as receitas no modo coluna */
     }
@@ -220,6 +213,5 @@ header .textos-header h2{/*Coxinha de Caju*/
         font-weight: bold;
         font-size: 22px;
     }
-
 
 }
